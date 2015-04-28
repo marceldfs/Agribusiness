@@ -5,4 +5,9 @@ Zk - 7
 Hibernate - 4.2
 Spring - 3.2
 Jasperreport - 5
+
+Ambiente de Desenvolvimento
+
+Java - 7
 Tomcat - 7
+Eclipse 4.2 + 
