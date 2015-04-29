@@ -26,6 +26,6 @@
                     </menu>
                     <menu label="Informacoes" width="24%"/>
                 </menubar>
-            </vbox></north><center><include src="pages/index.zul"> </include></center>
+            </vbox></north><center><include src="/index3.zul"> </include></center>
             <south size="15%" splittable="true" collapsible="true"> <image src="img/banner.jpg"/></south></borderlayout>
 </zk>
