@@ -1,0 +1,69 @@
+<?page title="Bem Vindo ao Agribussines"?>
+<!-- Page created by Lunguissa Dev. 2014-2015 -->
+
+<zk>
+<window id="janela"  width="100%" height="100%" position="top,center"  defaultActionOnShow="appear" draggable="false">
+	<!--  Declaration of the css files -->
+	<style src="css/style.css"></style>	
+	
+	<div sclass="main" align="center">
+	
+	<hbox  sclass="content1" align="center"  spacing="0">
+			<hbox  sclass="content1text" align="center"  spacing="0">
+			<image sclass="logotipo" src="images/logo1.png"/>
+			<label sclass="laberBanner1" >Bem Vindo ao AgriBussines</label>
+			</hbox>
+	</hbox>
+	
+	<div align="center" sclass="slider" id="slider">
+		<html>
+		<input type="radio" class="boton" name="boton" checked="checked"/>
+	    <label></label> 
+	    <input type="radio" class="boton" name="boton"/>
+	    <label></label>
+	    <input type="radio" class="boton" name="boton"/>
+	    <label></label>
+	    <input type="radio" class="boton" name="boton"/>
+	    <label></label>
+		  
+	    <div class="contenedor-img cuatro-imagenes">
+	    <img src="images/wall1.jpg"/>
+	    <img src="images/wall.jpg"/>
+	    <img src="images/greeen.jpg"/>
+	    <img src="images/imagen4.jpg"/>
+	    </div>
+	    
+	    <script>
+		$(function() {
+	    $("#slider > div:gt(0)").hide();
+		setInterval(function() { $('#slider > div:first') .fadeOut(1000) .next() .fadeIn(1000) .end() .appendTo('#slider'); }, 3000);
+		});
+		
+		</script>
+	    </html>  
+	</div>
+	
+	
+	<vbox sclass="content3" align="center">
+			<hbox  sclass="content3text" align="center" >
+			<label sclass="laberBanner2"> @Desenvolvido por Lunguissa Dev. 2014-2015</label>
+			</hbox>
+			<hbox  sclass="content3links" align="center" >
+			<html style="color:#FFFFFF">	
+			<a href="http://fb.com"><image sclass="socialIcons" src="images/facebook_32.png"/></a>
+			</html>
+			<html style="color:#FFFFFF">	
+			<a href="http://twitter.com"><image sclass="socialIcons" src="images/twitter_32.png"/></a>
+			</html>
+			<html style="color:#FFFFFF">	
+			<a href="http://googleplus.com"><image sclass="socialIcons" src="images/google-plus_32.png"/></a>
+			</html>
+			<html style="color:#FFFFFF">	
+			<a href="http://youtube.com"><image sclass="socialIcons" src="images/youtube_32.png"/></a>
+			</html>
+			</hbox>
+	</vbox>
+	
+	</div>
+	</window>
+</zk>
