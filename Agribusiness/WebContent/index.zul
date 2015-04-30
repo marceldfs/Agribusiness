@@ -1,0 +1,31 @@
+<?page title="new page title" contentType="text/html;charset=UTF-8"?>
+<zk>
+<borderlayout><north size="25%" splittable="true" collapsible="true"> <vbox vflex="true" width="100%">
+                <panel width="1300px" vflex="true">
+                    <panelchildren>
+                        <image src="img/banner.png" width="100%"/>
+                    </panelchildren>
+                </panel>
+                <menubar hflex="min" width="100%">
+                    <menu label="Producao" width="24%">
+                        <menupopup>
+                            <menuitem label="Registar Producao"/>
+                            <menuitem label="Estimaticas de Producao"/>
+                        </menupopup>
+                    </menu>
+                    <menu label="Consumo" width="24%">
+                        <menupopup>
+                            <menuitem label="Registar Pedido de Aquisicao"/>
+                            <menuitem label="Verificar Producao esperada"/>
+                        </menupopup>
+                    </menu>
+                    <menu label="Servicos de apoio" width="24%">
+                        <menupopup>
+                            <menuitem label="Transporte"/>
+                        </menupopup>
+                    </menu>
+                    <menu label="Informacoes" width="24%"/>
+                </menubar>
+            </vbox></north><center><include src="/index3.zul"> </include></center>
+            <south size="15%" splittable="true" collapsible="true"> <image src="img/banner.jpg"/></south></borderlayout>
+</zk>
