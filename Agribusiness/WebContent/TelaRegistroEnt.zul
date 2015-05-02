@@ -1,0 +1,77 @@
+<?page title="Agribusiness - Criar Conta"?>
+<zk>
+<borderlayout>
+
+	<north size="25%" splittable="true" collapsible="true"> 
+		
+		<vbox vflex="true" width="100%" >
+			<div>
+            	<image style="max-width:40%; max-height:78%; padding-bottom:10%; padding-left: 20%;" src="images/logo1.png"/>
+            	<label style="font-size:50px; font-family:Times New Roman">Agribusiness</label>
+         	</div>       
+        </vbox>
+     </north>
+           
+	<center>
+            
+		<div align="center">
+			<label style="font-size:60px; font-family:Times New Roman">Crie a sua conta no Agribussiness!!</label>
+            <grid hflex="1" width="60%" sizedByContent="true" > 
+        		<columns visible="false">
+            		<column/>
+            		<column/>
+        		</columns>
+        
+        		<rows>
+         			<row>
+						Nome <div><textbox id="nomeBox" hflex="1" constraint="no empty"/>-<textbox id="ApelidoBox" hflex="1" constraint="no empty"/></div>
+            		</row>
+            		<row>
+						Nome de Utilizador <textbox id="utilizadorBox" hflex="1" constraint="no empty"/>
+					</row>
+            		<row>
+                		Senha <textbox id="senhaBox" hflex="1" constraint="no empty"/>
+            		</row>
+            		<row>
+                		Confirmar Senha <textbox id="csenhaBox" hflex="1" constraint="no empty"/>
+            		</row>
+             		<row>
+                		Tipo de Utilizador <combobox hflex="1">
+            									<comboitem>Singular</comboitem>
+            									<comboitem>Empresa</comboitem>
+            								</combobox>
+            		</row>
+            		<row>
+                		Genero:
+                		<radiogroup id="generoRB">
+                    		<radio label="Masculino" value="masculino" checked="true"/>
+                    		<radio label="Femenino" value="femenino" />
+                		</radiogroup>
+            		</row>
+            		<row>
+                		Data de Nascimento <datebox id="datanascBox" hflex="1" constraint="no empty, no today, no future"/>
+            		</row>
+            		<row>
+                		Endereco <textbox id="enderecoBox" hflex="1" constraint="no empty"/>
+            		</row>
+            		<row>
+                		E-mail <textbox id="emailBox" hflex="1" constraint="no empty"/>
+            		</row>
+            		<row spans="2" align="center" >
+                		<hlayout>
+                    		<checkbox id="aceitarTermosBox"/> Aceito os termos de uso
+                		</hlayout>
+            		</row>
+            		<row spans="2" align="right">
+               			<hlayout>
+                    		<button id="limparBtn" label="Limpar" />
+                    		<button id="criarBtn" label="Criar conta" disabled="true"/>
+                		</hlayout>
+            		</row>
+        		</rows>
+    		</grid>
+    	</div>
+	</center>
+            
+</borderlayout>
+</zk>
