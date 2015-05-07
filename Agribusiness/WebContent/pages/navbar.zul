@@ -1,0 +1,107 @@
+<div sclass="navbar" apply="view.AgriBusiness.NavbarComposer">
+	<!-- Brand Logo -->
+	<a label="AgriBusiness " sclass="pull-left navbar-brand" iconSclass="z-icon-leaf"/>
+	<!-- Navbar -->
+	<hlayout sclass="nav-user pull-right" spacing="0">
+		<a id="atask" iconSclass="z-icon-tasks" popup="taskpp, position=after_end, type=toggle" sclass="grey">
+			<label value="4" sclass="badge badge-grey"/>
+		</a>
+		<a id="anoti" iconSclass="z-icon-bell" popup="notipp, position=after_end, type=toggle" sclass="purple">
+			<label value="8" sclass="badge badge-important"/>
+		</a>
+		<a id="amsg" iconSclass="z-icon-envelope" popup="msgpp, position=after_end, type=toggle" sclass="green">
+			<label value="5" sclass="badge badge-success"/>
+		</a>
+		<!-- User menu -->
+		<menubar sclass="user-menu light-blue">
+			<menu tooltiptext="Mais sobre Marcel" label="Welcome, Marcel" image="assets/avatars/avatar2.png">
+				<menupopup>
+					<menuitem label="Opcoes" iconSclass="z-icon-cog"/>
+					<menuitem label="Perfil" iconSclass="z-icon-user"/>
+					<menuseparator/>
+					<menuitem label="Sair" iconSclass="z-icon-off"/>
+				</menupopup>
+			</menu>
+		</menubar>
+	</hlayout>
+	<!-- Popups of navbar (A lista com barras )-->
+	<popup id="taskpp" sclass="menu" width="240px">
+		<a label="Tarefas pendentes" sclass="header" iconSclass="z-icon-check"/>
+		<vlayout spacing="0">
+			<a href="#">
+				<div>
+					<label class="pull-left" value="Registo da producao"/>
+					<label class="pull-right" value="65%"/>
+				</div>
+				<progressmeter value="65" width="100%"/>
+			</a>
+			<a href="#">
+				<div>
+					<label class="pull-left" value="Estimativa de Producao"/>
+					<label class="pull-right" value="35%"/>
+				</div>
+				<progressmeter value="35" width="100%" sclass="progressmeter-danger"/>
+			</a>
+			
+			
+			<a label="Ver mais detalhes" href="#"><span class="z-icon-arrow-right"/></a>
+		</vlayout>
+	</popup>
+	<popup id="notipp" sclass="menu menu-pink" width="240px">
+			<a label="Notificacoes" sclass="header" iconSclass="z-icon-exclamation-triangle"/>
+			<vlayout spacing="0">
+				<a iconSclass="btn btn-xs no-hover btn-pink z-icon-comment" href="#">
+					<label>Lista de Pedidos</label>
+					<label value="+12" class="badge badge-info pull-right"/>
+				</a>
+				<a iconSclass="btn btn-xs no-hover btn-primary z-icon-user" href="#">
+					<label>Fornecidores</label>
+				</a>
+				<a iconSclass="btn btn-xs no-hover btn-success z-icon-shopping-cart" href="#">
+					<label>Lista de Compras</label>
+					<label value="+8" class="badge badge-info pull-right"/>
+				</a>
+				<a iconSclass="btn btn-xs no-hover btn-info z-icon-twitter" href="#">
+					<label>Informacoes</label>
+					<label value="+11" class="badge badge-info pull-right"/>
+				</a>
+				<a label="Ver todas as notificacoes" href="#"><span class="z-icon-arrow-right"/></a>
+		</vlayout>
+	</popup>
+	<popup id="msgpp" sclass="menu" width="240px">
+		<a label="5 Messages" sclass="header" iconSclass="z-icon-envelope-o"/>
+		<vlayout spacing="0">
+			<a href="#">
+				<image tooltiptext="Avatar Fornecedor 1" src="../content-mainpage/assets/avatars/avatar.png" sclass="msg-photo"/>
+				<span sclass="msg-body">
+					<span sclass="msg-title">
+						<label value="Fornecedor 1:" sclass="blue"/>
+						Ciao sociis natoque penatibus et auctor ...
+					</span>
+					<span sclass="msg-time"><span class="z-icon-clock-o"/>a moment ago</span>
+				</span>
+			</a>
+			<a href="#">
+				<image tooltiptext="Avatar cliente 3" src="../content-mainpage/assets/avatars/avatar3.png" sclass="msg-photo"/>
+				<span class="msg-body">
+					<span class="msg-title">
+						<label value="Cliente 3:" sclass="blue"/>
+						Vestibulum id ligula porta felis euismod ...
+					</span>
+					<span sclass="msg-time"><span class="z-icon-clock-o"/>20 minutes ago</span>
+				</span>
+			</a>
+			<a href="#">
+				<image tooltiptext="Avatar Cliente 1" src="../content-mainpage/assets/avatars/avatar4.png" sclass="msg-photo"/>
+				<span class="msg-body">
+					<span class="msg-title">
+						<label value="Cliente 1:" sclass="blue"/>
+						Nullam quis risus eget urna mollis ornare ...
+					</span>
+					<span sclass="msg-time"><span class="z-icon-clock-o"/>3:15 pm</span>
+				</span>
+			</a>
+			<a label="Ver todas mensagens" href="#"><span class="z-icon-arrow-right"/></a>
+		</vlayout>
+	</popup>
+</div>
