@@ -24,32 +24,22 @@
         
         		<rows>
          			<row>
-						Nome <div><textbox id="nomeBox" hflex="1" constraint="no empty"/>-<textbox id="ApelidoBox" hflex="1" constraint="no empty"/></div>
+						Nome <textbox id="nomeBox" hflex="1" constraint="no empty"/>
             		</row>
             		<row>
 						Nome de Utilizador <textbox id="utilizadorBox" hflex="1" constraint="no empty"/>
 					</row>
             		<row>
-                		Senha <textbox id="senhaBox" hflex="1" constraint="no empty"/>
+                		Senha <textbox id="senhaBox" hflex="1" type="password" constraint="no empty"/>
             		</row>
             		<row>
-                		Confirmar Senha <textbox id="csenhaBox" hflex="1" constraint="no empty"/>
+                		Confirmar Senha <textbox id="csenhaBox" hflex="1" type="password" constraint="no empty"/>
             		</row>
              		<row>
                 		Tipo de Utilizador <combobox hflex="1">
             									<comboitem>Singular</comboitem>
             									<comboitem>Empresa</comboitem>
             								</combobox>
-            		</row>
-            		<row>
-                		Genero:
-                		<radiogroup id="generoRB">
-                    		<radio label="Masculino" value="masculino" checked="true"/>
-                    		<radio label="Femenino" value="femenino" />
-                		</radiogroup>
-            		</row>
-            		<row>
-                		Data de Nascimento <datebox id="datanascBox" hflex="1" constraint="no empty, no today, no future"/>
             		</row>
             		<row>
                 		Endereco <textbox id="enderecoBox" hflex="1" constraint="no empty"/>
