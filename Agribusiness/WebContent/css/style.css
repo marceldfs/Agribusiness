@@ -4,11 +4,47 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-html,
-body {
-    height: 100%;
+/* html, */
+/* body { */
+/*     height: 100%; */
+/* } */
+/* html */
+/* { */
+/*     border: 0px; */
+/*     margin: 0px; */
+/*     overflow: hidden; */
+/*     padding: 0px; */
+/* } */
+body
+{
+    border: 0px;
+    margin: 0px;
+/*     overflow: hidden; */
+    padding: 0px;
 }
 
+
+
+.container1 { 
+    width:100%; height:100%; 
+    overflow:hidden; 
+    position:relative; 
+}
+.preventScroll { 
+    width:100%; height:100%; 
+    position:absolute; top:0; left:0; 
+}
+#my-object {
+    height: 100%;
+    width: 320px;
+    position:relative;
+}
+
+object {
+  min-width: 100%;
+  min-height: 101%; 
+ 	overflow:hidden;
+}
 .carousel,
 .item,
 .active {
