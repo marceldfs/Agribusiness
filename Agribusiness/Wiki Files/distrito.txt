@@ -1,0 +1,7 @@
+Id,Id_provincia,Nome
+1,1,Kamavota,
+2,1,Kamaxakeni,
+3,2,Xai-xai,
+4,2,Manjacaze,
+5,3,Maxixe,
+6,3,Inharrime,

@@ -1,0 +1,11 @@
+-quando se for a fazer o uso do script, garantir que o ficheiro  das provincias, distritos
+e localidades tenha o mesmo nome e esteja localizado no mesmo directorio de acordo com o
+script
+
+-A criacao destes ficheiros pode ser feita escrevendo primeiro os nomes das colunas 
+seguido da virgula e em seguida os detalhes de cada tupla correspondendo a 
+respectiva coluna(Ver ficheiros de exemplo). 
+
+-Em seguida salve o ficheiro com o formato *.cvs .(ver exemplo)
+
+
