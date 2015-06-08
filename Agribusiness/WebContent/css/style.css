@@ -23,7 +23,19 @@ body
     padding: 0px;
 }
 
+input[type=checkbox] {
+  /* All browsers except webkit*/
+  transform: scale(1.5);
+  /* Webkit browsers*/
+  -webkit-transform: scale(1.5);
+}
+input[type=radio] {
+  /* All browsers except webkit*/
+  transform: scale(1.5);
 
+  /* Webkit browsers*/
+  -webkit-transform: scale(1.5);
+}
 
 .container1 { 
     width:100%; height:100%; 
