@@ -82,7 +82,7 @@
 			          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Consumo
 			          <span class="caret" style="color: red;"></span></a>
 			          <ul class="dropdown-menu">
-			            <li><a href="#">Registrar Pedido de Aquisição</a></li>
+			            <li><a href="#" onclick="setContent('pages/novoPedido.zul')">Registrar Pedido de Aquisição</a></li>
 			            <li><a href="#">Verificar Produção Esperada</a></li>
 			          </ul>
 			        </li>

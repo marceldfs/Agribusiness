@@ -1,8 +1,8 @@
 <?page title="Manter Permissoes" contentType="text/html;charset=UTF-8"?>
 <zk>
-<style src="css/bootstrap.min.css"></style>	
-<style src="css/style.css"></style>	
-<style src="font-awesome/css/font-awesome.min.css"></style>	
+<style src="../css/bootstrap.min.css"></style>	
+<style src="../css/style.css"></style>	
+<style src="../font-awesome/css/font-awesome.min.css"></style>	
 <style src="http://fonts.googleapis.com/css?family=Montserrat:400,700"></style>	
 <style src="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic"></style>
 <html><![CDATA[ <head>
@@ -17,13 +17,12 @@
 <title>Página Inicial . AgriBusiness</title>
 
 <!-- Bootstrap Core CSS -->
-<link href="./content-criar/css/bootstrap.min.css" rel="stylesheet">
+<link href="../content-criar/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Custom CSS -->
-<link href="./content-criar/css/full-slider.css" rel="stylesheet">
+<link href="../content-criar/css/full-slider.css" rel="stylesheet">
 
  <!-- Custom Fonts -->
-<link href="./content-criar/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
@@ -54,22 +53,22 @@
 
 
 <!-- jQuery -->
-<script src="./content-criar/js/jquery.js"></script>
+<script src="../content-criar/js/jquery.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
-<script src="./content-criar/js/bootstrap.min.js"></script>
+<script src="../content-criar/js/bootstrap.min.js"></script>
 
  <!-- Plugin JavaScript -->
 <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-<script src="./content-criar/js/classie.js"></script>
-<script src="./content-criar/js/cbpAnimatedHeader.js"></script>
+<script src="../content-criar/js/classie.js"></script>
+<script src="../content-criar/js/cbpAnimatedHeader.js"></script>
 
 <!-- Contact Form JavaScript -->
-<script src="./content-criar/js/jqBootstrapValidation.js"></script>
-<script src="./content-criar/js/contact_me.js"></script>
+<script src="../content-criar/js/jqBootstrapValidation.js"></script>
+<script src="../content-criar/js/contact_me.js"></script>
 
  <!-- Custom Theme JavaScript -->
-<script src="./content-criar/js/freelancer.js"></script>
+<script src="../content-criar/js/freelancer.js"></script>
 
 
 </body> ]]></html>
